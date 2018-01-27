@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Joe Aiken Portfolio</title>
+    <meta charset="UTF-8">
+
+    <!--Materialized Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Oswald" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+
+        <!--NavBar-->
+
+        <nav>
+            <div class="nav-wrapper grey darken-3 z-depth-4">
+                <a href="#" class="brand-logo">Joe Aiken</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#aboutSection">About Joe</a></li>
+                    <li><a href="#portfolioSection">Portfolio</a></li>
+                    <li><a href="#contactSection">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/brainTrivia.png"></div>
+        </div>
+
+        <!--About Me Section-->
+        <div class="row" id="aboutSection">
+            <div class="col s7">
+                <image class="z-depth-4 circle responsive-img" id="myFace" src="images/myFace.jpg">
+            </div>
+
+            <div class="col s5">
+                <h2 class="aboutHead">Get to know Joe</h2>
+                <blockquote class="z-depth-4">
+                    Joe Aiken is a Full-Stack Developer with a strong desire to work in Front End Development making sharp web applications.
+                </blockquote>
+                <blockquote class="z-depth-4">
+                    Joe is coming from a background in Nuclear Maintenance Technology. Once he discovered the endless possibilites web development provided for a creative mind he knew it was meant for him.
+                </blockquote>
+            </div>
+        </div>
+
+        <!--Portfolio Section-->
+        <div class="row" id="portfolioSection">
+            <div class="col s12">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="row">
+                    <!--Modal 1-->
+                    <div class="col s4 portfolio-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/thinkHard.png">
+                            </div>
+                            <div class="card-content center-align">
+                                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Trivia Game</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Modal 2-->
+                    <div class="col s4 portfolio-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/fridge2plate.png">
+                            </div>
+                            <div class="card-content center-align">
+                                <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Fridge 2 Plate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Modal 3-->
+                    <div class="col s4 portfolio-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img id="lightening" src="images/lightening.png">
+                            </div>
+                            <div class="card-content center-align">
+                                <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Weather Trek</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--Modal 4-->
+                    <div class="col s4 portfolio-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/firstDBZ.JPG">
+                            </div>
+                            <div class="card-content center-align">
+                                <a class="waves-effect waves-light btn modal-trigger" href="#modal4">React Click Game</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Modal 5-->
+                    <div class="col s4 portfolio-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/psychicgiant.png">
+                            </div>
+                            <div class="card-content center-align">
+                                <a class="waves-effect waves-light btn modal-trigger" href="#modal5">Psychic Game</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Modal 6-->
+                    <div class="col s4 portfolio-item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/crystal.png">
+                            </div>
+                            <div class="card-content center-align">
+                                <a class="waves-effect waves-light btn modal-trigger" href="#modal6">React Click Game</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!----------------------Contact Me Section----------------------->
+        <div class="row" id="contactSection">
+            <form class="col s12">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="contactHead">Contact Joe</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Full Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="Please enter valid email" data-success="&#10004;">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modalContact">Send</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+        <!-----------------------------Modals--------------------------------->
+        <!-- Modal Structure 1 -->
+        <div id="modal1" class="modal z-depth-4">
+            <div class="modal-content">
+                <h4 class="center-align">Phish Trivia Game</h4>
+                <img class="img-fluid d-block mx-auto" src="images/thinkHard.png" alt="">
+                <p>This is a simple trivia game made using JavaScript, jQuery, HTML, and CSS. At the start of the a game a timer starts. The user has 45 seconds to guess as many correct answers as possible. Once time runs out or user hits done the score
+                    is tallied and displayed.</p>
+                <ul class="list-inline">
+                    <li> <a class="modalLink" target="_blank" href="https://joeaiken.github.io/TriviaGame/">Click to Play</a></li>
+                    <li><a class="modalLink" href="https://github.com/JoeAiken/TriviaGame.git" target="_blank">Github Link</a></li><br>
+                    <li>Date: October 2017</li>
+                    <li>Developers: Just Joe!</li>
+                </ul>
+            </div>
+            <button class="waves-effect waves-light btn modal-close center-align">Close</button>
+        </div>
+
+        <!-- Modal Structure 2 -->
+        <div id="modal2" class="modal z-depth-4">
+            <div class="modal-content">
+                <h4 class="center-align">Fridge 2 Plate</h4>
+                <img class="img-fluid d-block mx-auto" src="images/fridge2plate.png" alt="">
+                <p>Fridge 2 Plate is an app which lets a user input ingredients they have in their fridge and provides recipes with videos that call for those ingredients. Joe helped on the Front End with basic design layout using Materialize, HTML, and
+                    CSS. Joe's main role was to set up the AJAX requests sent to the Spoonacular API.</p>
+                <ul class="list-inline">
+                    <li> <a class="modalLink" target="_blank" href="https://joeaiken.github.io/FridgeIngredientToMeal-groupProject1/">Click to Launch</a></li>
+                    <li><a class="modalLink" href="https://github.com/JoeAiken/FridgeIngredientToMeal-groupProject1.git" target="_blank">Github Link</a></li><br>
+                    <li>Date: November 2017</li>
+                    <li>Developers: Joe Aiken, Josh Jancula, Dimitri Kontos, Patrick Hayes</li>
+                </ul>
+            </div>
+            <button class="waves-effect waves-light btn modal-close center-align">Close</button>
+        </div>
+
+        <!-- Modal Structure 3 -->
+        <div id="modal3" class="modal z-depth-4">
+            <div class="modal-content">
+                <h4 class="center-align">Weather Trek</h4>
+                <img class="img-fluid d-block mx-auto" src="images/lightening.png" alt="">
+                <p>Weather Trek is a full stack app which lets users input a location and date for a future trip. Once the user hits submit past weather history of that location and time are displayed to the user. Joe's main role in this project was setting
+                    up user authentication. Joe did this by learning and using Passport with Express and Sequelize.</p>
+                <ul class="list-inline">
+                    <li> <a class="modalLink" target="_blank" href="https://safe-hamlet-77793.herokuapp.com/results">Click to Launch</a></li>
+                    <li><a class="modalLink" href="https://github.com/JoeAiken/project2.git" target="_blank">Github Link</a></li><br>
+                    <li>Date: December 2017</li>
+                    <li>Developers: Joe Aiken, Teddy Bermes, Rodney Ross, Katie Atwell</li>
+                </ul>
+            </div>
+            <button class="waves-effect waves-light btn modal-close center-align">Close</button>
+        </div>
+        <!-- Modal Structure 4 -->
+        <div id="modal4" class="modal z-depth-4">
+            <div class="modal-content">
+                <h4 class="center-align">React Click Game</h4>
+                <img class="img-fluid d-block mx-auto" src="images/firstDBZ.JPG" alt="">
+                <p>This is app was created using React. The point of the game is to click every image without repeating yourself. Every time the user clicks an image they are shuffled around. Game also saves users high score..</p>
+                <ul class="list-inline">
+                    <li> <a class="modalLink" target="_blank" href="https://joeaiken.github.io/Clicky-Game/">Click to Play</a></li>
+                    <li><a class="modalLink" href=" https://github.com/JoeAiken/Clicky-Game.git" target="_blank">Github Link</a></li><br>
+                    <li>Date: January 2017</li>
+                    <li>Developers: Just Joe!</li>
+                </ul>
+            </div>
+            <button class="waves-effect waves-light btn modal-close center-align">Close</button>
+        </div>
+
+        <!-- Modal Structure 5 -->
+        <div id="modal5" class="modal z-depth-4">
+            <div class="modal-content">
+                <h4 class="center-align">Psychic Game</h4>
+                <img class="img-fluid d-block mx-auto" src="images/psychicgiant.png" alt="">
+                <p>This is a simple guessing game. The user must guess the random letter in a certain amount of turns. The app keeps track of guessed letter, wins, loses and guesses remaining. App was built wiht simple Javascript, HTML, and CSS</p>
+                <ul class="list-inline">
+                    <li> <a class="modalLink" href="https://joeaiken.github.io/Psychic-Game/">Click to Play</a></li>
+                    <li><a class="modalLink" href="https://github.com/JoeAiken/Psychic-Game.git" target="_blank">Github Link</a></li><br>
+                    <li>Date: November 2017</li>
+                    <li>Developers: Just Joe!</li>
+                </ul>
+            </div>
+            <button class="waves-effect waves-light btn modal-close center-align">Close</button>
+        </div>
+
+        <!-- Modal Structure 6 -->
+        <div id="modal6" class="modal z-depth-4">
+            <div class="modal-content">
+                <h4 class="center-align">Crystal Collector</h4>
+                <img class="img-fluid d-block mx-auto" src="images/crystal.png" alt="">
+                <p>Simple game built using jQuery, HTML, and CSS. The game has 4 crystals all of which have random number values assigned to them. The user must click the crystals until their score matches the random score.</p>
+                <ul class="list-inline">
+                    <li> <a class="modalLink" href="https://joeaiken.github.io/TriviaGame/">Click to Play</a></li>
+                    <li><a class="modalLink" href="https://github.com/JoeAiken/Crystal-Collector.git" target="_blank">Github Link</a></li><br>
+                    <li>Date: October 2017</li>
+                    <li>Developers: Just Joe!</li>
+                </ul>
+            </div>
+            <button class="waves-effect waves-light btn modal-close center-align">Close</button>
+        </div>
+
+        <!-- Modal Structure -->
+        <div id="modalContact" class="modal">
+            <div class="modal-content">
+                <h5 class="sendMessage">Thanks for reaching out!</h5><br>
+                <h5 class="sendMessage">Joe will be in touch soon</h5>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/brainTrivia.png"></div>
+        </div>
+
+        <!--Footer-->
+        <footer class="page-footer grey darken-3">
+            <div class="footer-copyright">
+                <div class="container black-text">
+                    Joseph Aiken © 2018
+                    <!--<a class="grey-text text-lighten-4 right" id="backToTop" href="#!">Back to the top</a>-->
+                </div>
+                <a id="linkedIn" href="https://www.linkedin.com/in/joseph-aiken-80582114a/" target="_blank"><img src ="images/linkedinLogo.png"></a>
+                <a id="gitHub" href="https://github.com/JoeAiken" target="_blank"><img src ="images/githubLogo.png"></a>
+            </div>
+        </footer>
+    </main>
+
+
+
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+            $('.modal').modal();
+            $('.parallax').parallax();
+        });
+    </script>
+</body>
+
+</html>
