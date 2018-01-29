@@ -1,0 +1,24 @@
+{
+  "name": "professionalportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeAiken/ProfessionalPorfolio.git"
+  },
+  "author": "Joe Aiken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeAiken/ProfessionalPorfolio/issues"
+  },
+  "homepage": "https://github.com/JoeAiken/ProfessionalPorfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemailer": "^4.4.2"
+  }
+}

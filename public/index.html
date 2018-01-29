@@ -4,10 +4,13 @@
 <head>
     <title>Joe Aiken Portfolio</title>
     <meta charset="UTF-8">
-
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <!--Materialized Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Oswald" rel="stylesheet">
@@ -22,6 +25,8 @@
         <nav>
             <div class="nav-wrapper grey darken-3 z-depth-4">
                 <a href="#" class="brand-logo">Joe Aiken</a>
+                <a id="linkedIn" href="https://www.linkedin.com/in/joseph-aiken-80582114a/" target="_blank"><img src ="images/linkedinLogo.png"></a>
+                <a id="gitHub" href="https://github.com/JoeAiken" target="_blank"><img src ="images/githubLogo.png"></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#aboutSection">About Joe</a></li>
                     <li><a href="#portfolioSection">Portfolio</a></li>
@@ -36,7 +41,7 @@
         </div>
 
         <!--About Me Section-->
-        <div class="row" id="aboutSection">
+        <div class="row z-depth-4" id="aboutSection">
             <div class="col s7">
                 <image class="z-depth-4 circle responsive-img" id="myFace" src="images/myFace.jpg">
             </div>
@@ -53,91 +58,90 @@
         </div>
 
         <!--Portfolio Section-->
-        <div class="row" id="portfolioSection">
+        <div class="row z-depth-4 grey lighten-3" id="portfolioSection">
             <div class="col s12">
                 <h2 class="section-heading text-uppercase">Portfolio</h2>
             </div>
-        </div>
-        <div class="row">
-            <div class="col s12">
-                <div class="row">
-                    <!--Modal 1-->
-                    <div class="col s4 portfolio-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="images/thinkHard.png">
+            <div class="row">
+                <div class="col s12">
+                    <div class="row">
+                        <!--Modal 1-->
+                        <div class="col s4 portfolio-item">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/thinkHard.png">
+                                </div>
+                                <div class="card-content center-align">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Trivia Game</a>
+                                </div>
                             </div>
-                            <div class="card-content center-align">
-                                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Trivia Game</a>
+                        </div>
+                        <!--Modal 2-->
+                        <div class="col s4 portfolio-item">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/fridge2plate.png">
+                                </div>
+                                <div class="card-content center-align">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Fridge 2 Plate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal 3-->
+                        <div class="col s4 portfolio-item">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img id="lightening" src="images/lightening.png">
+                                </div>
+                                <div class="card-content center-align">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Weather Trek</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!--Modal 2-->
-                    <div class="col s4 portfolio-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="images/fridge2plate.png">
-                            </div>
-                            <div class="card-content center-align">
-                                <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Fridge 2 Plate</a>
+
+                    <div class="row">
+                        <!--Modal 4-->
+                        <div class="col s4 portfolio-item">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/firstDBZ.JPG">
+                                </div>
+                                <div class="card-content center-align">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal4">React Click Game</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Modal 3-->
-                    <div class="col s4 portfolio-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img id="lightening" src="images/lightening.png">
+                        <!--Modal 5-->
+                        <div class="col s4 portfolio-item">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/psychicgiant.png">
+                                </div>
+                                <div class="card-content center-align">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal5">Psychic Game</a>
+                                </div>
                             </div>
-                            <div class="card-content center-align">
-                                <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Weather Trek</a>
+                        </div>
+                        <!--Modal 6-->
+                        <div class="col s4 portfolio-item">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="images/crystal.png">
+                                </div>
+                                <div class="card-content center-align">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal6">React Click Game</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <!--Modal 4-->
-                    <div class="col s4 portfolio-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="images/firstDBZ.JPG">
-                            </div>
-                            <div class="card-content center-align">
-                                <a class="waves-effect waves-light btn modal-trigger" href="#modal4">React Click Game</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Modal 5-->
-                    <div class="col s4 portfolio-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="images/psychicgiant.png">
-                            </div>
-                            <div class="card-content center-align">
-                                <a class="waves-effect waves-light btn modal-trigger" href="#modal5">Psychic Game</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Modal 6-->
-                    <div class="col s4 portfolio-item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="images/crystal.png">
-                            </div>
-                            <div class="card-content center-align">
-                                <a class="waves-effect waves-light btn modal-trigger" href="#modal6">React Click Game</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
         <!----------------------Contact Me Section----------------------->
         <div class="row" id="contactSection">
-            <form class="col s12">
+            <form class="col s12" action="/send" method="get">
                 <div class="row">
                     <div class="col s12">
                         <h2 class="contactHead">Contact Joe</h2>
@@ -155,6 +159,10 @@
                         <label for="email" data-error="Please enter valid email" data-success="&#10004;">Email</label>
                     </div>
                 </div>
+                <div class="input-field col s12">
+                    <input type="text" id="phone" class="autocomplete">
+                    <label for="phone">Telephone Number</label>
+                </div>
                 <div class="row">
                     <div class="input-field col s12">
                         <textarea id="message" class="materialize-textarea"></textarea>
@@ -163,7 +171,7 @@
                 </div>
                 <div class="row">
                     <div class="col s12">
-                        <a class="waves-effect waves-light btn modal-trigger" href="#modalContact">Send</a>
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modalContact" type="submit" id="submitButton">Send</a>
                     </div>
                 </div>
             </form>
@@ -297,21 +305,16 @@
             </div>
         </footer>
     </main>
-
-
-
-
-    <!--jQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script>
         $(document).ready(function() {
+            $('.parallax').parallax();
             // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
             $('.modal').modal();
-            $('.parallax').parallax();
         });
     </script>
+
 </body>
+<script type="text/javascript" src="js/email.js"></script>
+
 
 </html>
