@@ -92,3 +92,8 @@ p {
 #linkedIn {
     margin-right: 2%;
 }
+
+.carousel-item {
+    height: 400px;
+    width: 300px;
+}
