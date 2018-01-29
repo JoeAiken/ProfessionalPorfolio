@@ -47,7 +47,7 @@ window.onload = function() {
     function submitMessage(message) { // and send them back to homepage
         console.log("about to send message");
         $.get("/send", {
-                to: "josephaiken92@gmail.com",
+                to: "cjaiken92@gmail.com",
                 subject: "New Message From Portfolio",
                 html: "<h3>" + "name: " + message.name + "</h3>" + "<br>" +
                     "<h4>" + "email: " + message.email + "</h4>" +
