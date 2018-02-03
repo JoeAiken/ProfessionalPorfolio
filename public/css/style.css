@@ -42,6 +42,7 @@ blockquote {
     margin-left: 10%;
     font-weight: bold;
     text-shadow: 2px 2px grey;
+
 }
 
 li {
@@ -86,9 +87,11 @@ p {
 }
 
 #gitHub {
-    margin-right: 10%;
+
+    margin-left: 1%;
 }
 
-#linkedIn {
-    margin-right: 2%;
+#jamPic {
+    max-height: 419px;
+    max-width: 315px;
 }
