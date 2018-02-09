@@ -24,14 +24,20 @@
 
         <nav>
             <div class="nav-wrapper grey darken-3 z-depth-4">
-                <a href="#" class="brand-logo">Joseph Aiken</a>
-                <a class='connectLogo' id="linkedIn" href="https://www.linkedin.com/in/joseph-aiken-80582114a/" target="_blank"><img src ="images/linkedinLogo.png"></a>
-                <a class='connectLogo' id="gitHub" href="https://github.com/JoeAiken" target="_blank"><img src ="images/githubLogo.png"></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <a href="#" class="brand-logo center">Joseph Aiken</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li><a href="#aboutSection">About Joseph</a></li>
                     <li><a href="#portfolioSection">Portfolio</a></li>
                     <li><a href="#contactSection">Contact</a></li>
                 </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#aboutSection">About Joseph</a></li>
+                    <li><a href="#portfolioSection">Portfolio</a></li>
+                    <li><a href="#contactSection">Contact</a></li>
+                </ul>
+                <a class='right connectLogo' id="linkedIn" href="https://www.linkedin.com/in/joseph-aiken-80582114a/" target="_blank"><img src ="images/linkedinLogo.png"></a>
+                <a class='right connectLogo' id="gitHub" href="https://github.com/JoeAiken" target="_blank"><img src ="images/githubLogo.png"></a>
             </div>
         </nav>
 
@@ -311,6 +317,7 @@
         $(document).ready(function() {
             $('.parallax').parallax();
             $('.carousel').carousel();
+            $(".button-collapse").sideNav();
             // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
             $('.modal').modal();
         });

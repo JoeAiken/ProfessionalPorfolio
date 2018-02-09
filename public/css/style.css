@@ -39,7 +39,6 @@ blockquote {
 
 .brand-logo {
     font-family: "Cinzel", serif;
-    margin-left: 10%;
     font-weight: bold;
     text-shadow: 2px 2px grey;
 
@@ -88,7 +87,7 @@ p {
 
 #gitHub {
 
-    margin-left: 1%;
+    margin-right: 1%;
 }
 
 #jamPic {
@@ -96,6 +95,6 @@ p {
     max-width: 315px;
 }
 
-.connectLogo {
-    margin-top: 15%;
+#linkedIn {
+    margin-right: 1%;
 }
