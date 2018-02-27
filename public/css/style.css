@@ -1,5 +1,5 @@
 body {
-    font-family: "Cinzel", serif;
+    font-family: "Mukta Masee", serif;
 }
 
 blockquote {
@@ -11,7 +11,7 @@ blockquote {
     font-size: larger;
     font-weight: bold;
     border-left: 5px solid #64b5f6;
-    font-family: "Oswald", sans-serif;
+    font-family: "Mukta Masee", sans-serif;
 }
 
 #myFace {
@@ -38,7 +38,7 @@ blockquote {
 
 
 .brand-logo {
-    font-family: "Cinzel", serif;
+    font-family: "Mukta Masee", serif;
     font-weight: bold;
     text-shadow: 2px 2px grey;
 
@@ -52,7 +52,7 @@ li {
 p {
     font-weight: bold;
     font-size: large;
-    font-family: "Oswald", sans-serif;
+    font-family: "Mukta Masee", sans-serif;
 }
 
 .modalLink {
