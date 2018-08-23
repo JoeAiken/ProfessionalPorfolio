@@ -14,6 +14,10 @@ blockquote {
     font-family: "Mukta Masee", sans-serif;
 }
 
+.nav-wrapper.grey.darken-3.z-depth-4 {
+    height: 99px;
+}
+
 #myFace {
     height: 45%;
     width: 45%;
@@ -35,6 +39,22 @@ blockquote {
     background-size: contain;
 }
 
+.card {
+    border-radius: 10px !important;
+}
+
+.card-image {
+    padding: 30px;
+}
+
+.card-image img {
+     border-radius: 10px !important;
+}
+
+.modal-close {
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
 
 
 .brand-logo {
@@ -84,9 +104,16 @@ p {
     text-align: center;
 }
 
-#gitHub {
+#gitHubTop {
+    width: 60px;
+    height: 60px;
+    margin-top: 18px;
+}
 
-    margin-right: 1%;
+#gitHub {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 7px;
 }
 
 #jamPic {
@@ -94,8 +121,19 @@ p {
     max-width: 315px;
 }
 
+#linkedInTop {
+    width: 75px;
+    height: 75px;
+    margin-top: 11px;    
+}
+
 #linkedIn {
-    margin-right: 1%;
+    width: 75px;
+    height: 75px;
+}
+
+.socialLinks {
+    margin-left: 70%;
 }
 
 @media (min-width: @screen-xs-min) {
