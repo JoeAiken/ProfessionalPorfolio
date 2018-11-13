@@ -110,6 +110,11 @@ p {
 
 }
 
+img#gif {
+    width: 100%;
+    height: auto;
+}
+
 
 #email,
 #message,
@@ -169,6 +174,22 @@ p {
 
 .socialLinks {
     margin-left: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+    .brand-logo {font-size: 21pt !important;}
+    
+    #linkedInTop {
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    #gitHubTop {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
 }
 
 @media (min-width: @screen-xs-min) {
