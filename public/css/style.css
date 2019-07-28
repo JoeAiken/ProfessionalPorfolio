@@ -14,9 +14,6 @@ blockquote {
     font-family: "Raleway", sans-serif;
 }
 
-.nav-wrapper.grey.darken-2.z-depth-4 {
-    height: 99px;
-}
 
 nav ul a:hover{
     background-color: gold !important;
@@ -32,9 +29,6 @@ nav ul a:hover{
     border-radius: 15px;
 }
 
-ul#nav-mobile {
-    margin-top: 20px;
-}
 
 .aboutHead {
     margin-right: 10%;
