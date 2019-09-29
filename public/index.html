@@ -61,7 +61,9 @@
                         <br>
                         <p>Joseph Aiken is a Front End Developer living in Charlotte, North Carolina.</p>
                         <br>
-                        <p>Through his completion of UNC Charlotte's Full Stack coding program in February 2018, and experience gained from his first development jobs, Joseph has gained proficient skills in HTML, CSS, SCSS, JavaScript, jQuery, Gulp, and Git.</p>
+                        <p>Through his completion of UNC Charlotte's Full Stack coding program in February 2018, and
+                            experience gained from his first development jobs, Joseph has gained proficient skills in
+                            HTML, CSS, SCSS, JavaScript, jQuery, Gulp, and Git.</p>
                         <br>
                         <p>In his spare time Joseph enjoys playing guitar, and hiking with his fiance, Kathleen, and
                             their dog, Piper. Joseph can also be found attending shows in the lively Charlotte music
@@ -154,23 +156,25 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Jon Fishman">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" class="form-control" id="phone" placeholder="(555)555-5555">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
-                        </div>
-                        <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
+                        <form action="/send" method="get">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Jon Fishman">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="(555)555-5555">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+                            <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
