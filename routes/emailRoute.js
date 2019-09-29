@@ -17,7 +17,7 @@ module.exports = function(app, flag) {
     app.get('/', function(req, res) {
         res.sendfile('index.html');
     });
-    app.post('/send', function(req, res) {
+    app.get('/send', function(req, res) {
         var mailOptions = {
             to: req.query.to,
             subject: req.query.subject,
