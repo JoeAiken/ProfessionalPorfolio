@@ -4,10 +4,10 @@ const GMAIL_PASS = process.env.GMAIL_PASS;
 
 var Transport = nodemailer.createTransport({
     service: "gmail",
-    host:"GMAIL_USER",
+    host:"cjaiken92@gmail.com",
     auth: {
-        user: "GMAIL_USER",
-        pass: "GMAIL_PASS"
+        user: "cjaiken92@gmail.com",
+        pass: "thebestpasswordtoeverexist"
 
     }
 });
