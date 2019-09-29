@@ -5,7 +5,7 @@ var Transport = nodemailer.createTransport({
     host:"cjaiken92@gmail.com",
     auth: {
         user: "cjaiken92@gmail.com",
-        pass: "verynice2"
+        pass: "thebestpasswordtoeverexist"
 
     }
 });
