@@ -43,12 +43,16 @@ h2 {
     border-bottom: 1px solid grey;
 }
 
-.form-control {
+.form-control:valid {
     background-color: #343a40;
     border: none;
     border-bottom: 1px solid white;
     color: white !important;
     border-radius: unset;
+}
+
+.form-control:focus {
+    box-shadow: unset;
 }
 
 .fab {
