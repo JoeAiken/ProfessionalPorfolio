@@ -28,6 +28,7 @@ h2 {
 .portfolioImage {
     width: 250px;
     height: auto;
+    margin: 25px 0;
 }
 
 .portfolioContent h2 {
