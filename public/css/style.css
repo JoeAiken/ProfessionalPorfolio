@@ -61,11 +61,21 @@ h2 {
     color: white;
 }
 
+.fab:hover {
+    color: #343a40;
+}
+
 .social a {
     display: inline-block;
 }
 @media only screen and (max-width: 575px){
     h1 {
         font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .parallax{
+        background-size: cover;
     }
 }
