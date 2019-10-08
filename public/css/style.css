@@ -17,8 +17,8 @@ h2 {
 }
 
 .parallax {
-  background-image: url("../images/coding.jpg");
-  height: 80vH;
+  background-image: url("../images/desk.png");
+  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
